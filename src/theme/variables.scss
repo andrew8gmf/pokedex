@@ -43,5 +43,11 @@
   --background-white: #FFFFFF;
   --background-default-input: #F2F2F2;
   --background-pressed-input: #E2E2E2;
-  --background-modal: #17171B;
+  --background-modal: rgba(23, 23, 27, 0.5);
+
+  /** Text **/
+  --text-white: #FFFFFF;
+  --text-black: #17171B;
+  --text-grey: #747476;
+  --text-number: rgba(23, 23, 27, 0.6);
 }
