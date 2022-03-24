@@ -25,6 +25,8 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-body {
+html, body {
     background: var(--background-white);
+    color: var(--ion-text-color);
+    font-family: var(--ion-font-family);
 }
