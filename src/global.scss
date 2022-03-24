@@ -30,3 +30,36 @@ html, body {
     color: var(--ion-text-color);
     font-family: var(--ion-font-family);
 }
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 700;
+}
+.application-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.pokemon-name {
+    font-size: 26px;
+    font-weight: 700;
+}
+.filter-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+.description {
+    font-size: 16px;
+    font-weight: 400;
+}
+.pokemon-number {
+    font-size: 12px;
+    font-weight: 700;
+}
+.pokemon-type {
+    font-size: 12px;
+    font-weight: 500;
+}

@@ -16,7 +16,7 @@
 :root {
   /** Typography **/
   --ion-font-family: 'SF Pro Display';
-  --ion-text-color: #17171B;
+  --ion-text-color: var(--text-black);
 
   /** Type **/
   --type-bug: #8CB230;
