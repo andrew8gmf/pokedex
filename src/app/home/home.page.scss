@@ -10,61 +10,63 @@ $gradient-pokemon-circle: linear-gradient(334.58deg, rgba(255, 255, 255, 0.35) 1
 app-home {
   background: var(--background-white);
 
-  img {
-    position: absolute;
-    width: 100%;
-  }
-
-  ion-header {
-    ion-toolbar {
-      --background: transparent;
-
-      ion-buttons {
-        margin: 0;
-        padding: 40px 40px 35px 0;
-      }
-
-      h1 {
-        margin: 0 40px 10px 40px;
-      }
-      h2 {
-        color: var(--text-grey);
-        margin: 0 40px 25px 40px;
-      }
-
-      .search-bar {
-        display: flex;
-        align-items: center;
-        background: var(--background-default-input);
-        border-radius: 10px;
-        margin: 0 40px 20px 40px;
-        padding: 20px 25px;
-
-        ion-icon {
-          position: absolute;
-          width: 20px;
-          height: 20px;
+  ion-content {
+    img {
+      position: absolute;
+      width: 100%;
+    }
+  
+    ion-header {
+      ion-toolbar {
+        --background: transparent;
+  
+        ion-buttons {
+          margin: 0;
+          padding: 40px 40px 35px 0;
         }
-
-        input {
+  
+        h1 {
+          margin: 0 40px 10px 40px;
+        }
+        h2 {
+          color: var(--text-grey);
+          margin: 0 40px 25px 40px;
+        }
+  
+        .search-bar {
+          display: flex;
+          align-items: center;
           background: var(--background-default-input);
-          border: none;
-          width: 100%;
-
-          &::placeholder {
-            color: var(--text-grey);
-            text-align: center;
+          border-radius: 10px;
+          margin: 0 40px 20px 40px;
+          padding: 20px 25px;
+  
+          ion-icon {
+            position: absolute;
+            width: 20px;
+            height: 20px;
           }
-
-          &:focus {
+  
+          input {
+            background: var(--background-default-input);
             border: none;
-            box-shadow: none;
-            outline: none;
-            padding-left: 40px;
+            width: 100%;
+  
+            &::placeholder {
+              color: var(--text-grey);
+              text-align: center;
+            }
+  
+            &:focus {
+              border: none;
+              box-shadow: none;
+              outline: none;
+              padding-left: 40px;
+            }
           }
-        }
-        input:focus::placeholder {
-          color: transparent;
+          input:focus::placeholder {
+            color: transparent;
+          }
         }
       }
     }
